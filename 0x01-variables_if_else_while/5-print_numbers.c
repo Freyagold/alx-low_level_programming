@@ -11,7 +11,7 @@ int main(void)
 
 	for (freya = 0; freya < 10; freya++)
 	{
-		printf ("%d", freya);
+		printf("%d", freya);
 	}
 	printf("\n");
 	return (0);
