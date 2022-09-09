@@ -2,15 +2,17 @@
 
 /**
  * main - Entry point
- * author: freya
- * Return: Always 0 (Success)
+ *
+ * Return: Always 0 (Success/correct)
  */
 int main(void)
 {
-	int freya;
+	char i;
 
-	for (freya = 48; freya < 58; freya++)
-		putchar(freya);
+	for (i = 'z'; i >= 'a'; i--)
+	{
+		putchar(i);
+	}
 	putchar('\n');
 	return (0);
 }
